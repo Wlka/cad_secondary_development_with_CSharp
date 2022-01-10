@@ -1,6 +1,6 @@
 ### C#+AutoCAD二次开发实现不关闭CAD程序重新加载dll文件
 
-##### 主要解决思路来源于https://blog.csdn.net/qq_26739115/article/details/119959843以及https://www.cnblogs.com/xwgli/p/11268650.html，非常感谢网络上各位大佬分享的资料
+##### 主要解决思路来源于https://blog.csdn.net/qq_26739115/article/details/119959843 以及 https://www.cnblogs.com/xwgli/p/11268650.html
 
 - 启动项目时需要用netload命令加载NetloadX.dll文件，之后就可以利用NetloadX类里面的NLX加载编译后的其他dll文件了
 
